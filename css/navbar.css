@@ -1,0 +1,173 @@
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    width:100%;
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:999;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.nav-container{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:85px;
+
+}
+
+/* Logo */
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+}
+
+.logo-icon{
+
+    width:55px;
+    height:55px;
+    background:#2563EB;
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:12px;
+
+    font-size:26px;
+
+    box-shadow:0 5px 15px rgba(37,99,235,.25);
+
+}
+
+.logo-content h2{
+
+    color:#2563EB;
+    font-size:25px;
+    line-height:1;
+
+}
+
+.logo-content p{
+
+    color:#64748B;
+    font-size:13px;
+
+}
+
+/* Navigation */
+
+.nav-links{
+
+    display:flex;
+    list-style:none;
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+    color:#334155;
+    font-weight:600;
+    position:relative;
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#2563EB;
+
+}
+
+.nav-links a::after{
+
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+
+    width:0;
+    height:3px;
+
+    background:#2563EB;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+/* Buttons */
+
+.nav-buttons{
+
+    display:flex;
+    gap:15px;
+
+}
+
+.login-btn{
+
+    text-decoration:none;
+    color:#2563EB;
+
+    border:2px solid #2563EB;
+
+    padding:10px 22px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#2563EB;
+    color:white;
+
+}
+
+.register-btn{
+
+    text-decoration:none;
+
+    background:#2563EB;
+    color:white;
+
+    padding:10px 22px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    box-shadow:0 5px 15px rgba(37,99,235,.25);
+
+    transition:.3s;
+
+}
+
+.register-btn:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+
+}

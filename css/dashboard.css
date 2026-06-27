@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.header {
+    background: #1e3a8a;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    background: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+/* STATS */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.blue { background: #2563eb; }
+.orange { background: #f59e0b; }
+.green { background: #10b981; }
+.red { background: #ef4444; }
+
+/* ACTIONS */
+.actions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.actions a {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.actions a:hover {
+    background: #1e3a8a;
+    color: white;
+}
+
+/* ACTIVITY */
+.activity {
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.activity ul {
+    list-style: none;
+    padding: 0;
+}
+
+.activity li {
+    padding: 8px 0;
+}
